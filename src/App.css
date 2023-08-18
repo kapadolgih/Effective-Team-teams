@@ -1,0 +1,119 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F0EFF5;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  background-color: #513269;
+}
+
+.logo {
+  font-family: 'MuseoModerno', cursive;
+  color: #C0BEFF;
+}
+
+.menu {
+  color: #C0BEFF;
+}
+
+.btn {
+  background-color: #513269;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.photo {
+  width: 42px;
+  height: 42px;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.status{
+  font-size: 12px;
+}
+
+.menu-vertical {
+  display: flex;
+  margin-left: 30px;
+}
+
+.logoMenuVertical {
+  width: 20px;
+}
+
+.teams {
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 50%;
+  color: #333269;
+}
+
+.headers {
+  display: flex;
+  justify-content:space-between;
+  padding: 0px 30px;
+}
+
+.customize{
+  text-decoration: none;
+  color: #5855D6;
+  font-size: 14px;
+
+}
+
+.container-teams {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.teamOne, .teamTwo {
+  display: flex;
+  justify-content:space-between;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+}
+
+.teamLogo {
+  width: 90px;
+  border: 1px gainsboro solid;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.score {
+  align-self: center;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 36px;
+  color: #9592A6;
+}
+
+.addTeam {
+  display: flex;
+  justify-content:center
+}
+
+.addTeamPlus {
+  background-color: #333269;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  padding: 0px 8px;
+}
+
+.addTeamText {
+  background-color: white;
+  border: none;
+  color: #333269;
+}
